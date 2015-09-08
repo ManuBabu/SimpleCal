@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ff6b1a0d"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/editText"
+        android:background="#fffef9ff"
+        android:layout_weight="0.44" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="428dp"
+        android:columnCount="17"
+        android:rowCount="12">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_row="6"
+            android:layout_column="6"
+            />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_row="6"
+            android:layout_column="10" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:layout_row="6"
+            android:layout_column="15" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button4"
+            android:layout_row="6"
+            android:layout_column="16" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button19"
+            android:layout_row="8"
+            android:layout_column="6" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button20"
+            android:layout_row="8"
+            android:layout_column="10" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button18"
+            android:layout_row="8"
+            android:layout_column="15" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button17"
+            android:layout_row="8"
+            android:layout_column="16" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button13"
+            android:layout_row="9"
+            android:layout_column="6" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button14"
+            android:layout_row="9"
+            android:layout_column="10" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button15"
+            android:layout_row="9"
+            android:layout_column="15" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button16"
+            android:layout_row="9"
+            android:layout_column="16" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button9"
+            android:layout_row="10"
+            android:layout_column="6" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button10"
+            android:layout_row="10"
+            android:layout_column="10" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button11"
+            android:layout_row="10"
+            android:layout_column="15" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button12"
+            android:layout_row="10"
+            android:layout_column="16" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button5"
+            android:layout_row="11"
+            android:layout_column="6" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button6"
+            android:layout_row="11"
+            android:layout_column="10" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button7"
+            android:layout_row="11"
+            android:layout_column="15" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:text="New Button"
+            android:id="@+id/button8"
+            android:layout_row="11"
+            android:layout_column="16" />
+    </GridLayout>
+
+</LinearLayout>
